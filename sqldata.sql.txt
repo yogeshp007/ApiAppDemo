@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[UserDetail] (
+    [Id]    INT          IDENTITY (1, 1) NOT NULL,
+    [Uname] VARCHAR (30) NULL,
+    [Ucity] VARCHAR (30) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
